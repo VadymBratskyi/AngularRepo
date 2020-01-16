@@ -1,0 +1,1 @@
+Ext.StringList['WC.TabPanel']=new Ext.util.MixedCollection(false,function(item){return item.id;});Ext.StringList['WC.TabPanel'].addAll({name:"StringList",value:"System.Byte[]"},{name:"ContextMenu.Options",value:"Admin area"});

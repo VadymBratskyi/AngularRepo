@@ -1,0 +1,29 @@
+<h2>My Heroes</h2>
+<table>
+    <tr>
+        <td>
+            <button class="add" [routerLink]="['/add_heroe']">Add</button>
+            <input #heroName />
+            <button (click)="onSearch(heroName.value);" class="search">
+                search
+            </button>
+            <ul class="heroes">
+                <li *ngFor="let hero of $heroes | async"
+                  [class.selected]="hero === selectedHero"
+                  (click)="onSelect(hero)">
+                  <span class="badge">{{hero.id}}</span> {{hero.name}}
+                </li>
+            </ul>            
+        </td>
+        <td>
+            <app-details *ngIf="selectedHero" [inHeroe]="selectedHero" (onSaved)="onSave()" (onDeleted)="onDelet()"></app-details>         
+            <app-messages></app-messages>   
+        </td>
+        <td>
+            <router-outlet></router-outlet>
+        </td>
+    </tr>
+</table>
+
+
+

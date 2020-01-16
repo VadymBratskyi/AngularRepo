@@ -1,0 +1,1 @@
+Ext.StringList['WC.SchemaDesignModeManager']=new Ext.util.MixedCollection(false,function(item){return item.id;});Ext.StringList['WC.SchemaDesignModeManager'].addAll({name:"StringList",value:"System.Byte[]"},{name:"SchemaDesignModeManager.TypeNotFound",value:"Type name is not specified."});

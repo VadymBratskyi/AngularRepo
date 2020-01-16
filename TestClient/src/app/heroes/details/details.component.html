@@ -1,0 +1,13 @@
+<div>
+    <h2 class="hero-view" (click)="onViewHero()">{{inHeroe.name | uppercase}} Details</h2>
+    <div><span>id: </span>{{inHeroe.id}}</div>
+    <div>
+        <label>name:
+        <input [(ngModel)]="inHeroe.name" placeholder="name"/>
+        </label>
+    </div>
+    <div>
+        <button title="edit hero" class="action" (click)="save()">save</button>
+        <button title="delete hero" class="action" (click)="delete()">delete</button>
+    </div>    
+</div>

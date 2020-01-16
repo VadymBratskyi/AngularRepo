@@ -1,0 +1,1 @@
+Ext.StringList['WC.Chart']=new Ext.util.MixedCollection(false,function(item){return item.id;});Ext.StringList['WC.Chart'].addAll({name:"ResetZoom.Caption",value:"100%"},{name:"StringList",value:"System.Byte[]"});

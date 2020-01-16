@@ -1,0 +1,1 @@
+Ext.StringList['WC.MultiCurrencyEdit']=new Ext.util.MixedCollection(false,function(item){return item.id;});Ext.StringList['WC.MultiCurrencyEdit'].addAll({name:"EqualsLabel.Caption",value:"="},{name:"StringList",value:"System.Byte[]"},{name:"RateLabel.Caption",value:"at"},{name:"NotSetCurrencySymbol.Caption",value:"?"});

@@ -1,0 +1,19 @@
+<ts-terra-dialog [responseValue]="getProperties" [terraDialogModel]="qyeryDialogModel">
+    <table style="width: 100%;">
+        <tr *ngFor="let item of entityItems">
+            <td>
+                <button type="button" mat-icon-button color="primary" (click)="onAddEntity()" [disabled]="item.SelectedValue == null || item.SelectedValue.type != 'object'">
+                    <mat-icon>add</mat-icon>
+                </button>
+            </td>
+            <td>
+                <ts-select-property [inEntity]="item"></ts-select-property>
+             </td>
+            <td>
+                <button type="button" mat-icon-button color="accent" (click)="onRemoveEntity(item.IdComponent)" [disabled]="entityItems.length == 1">
+                    <mat-icon>remove</mat-icon>
+                </button>
+            </td>
+        </tr>
+    </table>
+</ts-terra-dialog>

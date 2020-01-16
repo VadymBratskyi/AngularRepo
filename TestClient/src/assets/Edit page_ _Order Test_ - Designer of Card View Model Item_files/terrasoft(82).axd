@@ -1,0 +1,1 @@
+Ext.StringList['WC.HtmlEdit']=new Ext.util.MixedCollection(false,function(item){return item.id;});Ext.StringList['WC.HtmlEdit'].addAll({name:"SpellingMenu.NoWordVariants",value:"No Variants"},{name:"StringList",value:"System.Byte[]"},{name:"SpellingMenu.EditWord",value:"Edit"},{name:"Message.PleaseEnterUrl",value:"Please, enter URL for the link:"});

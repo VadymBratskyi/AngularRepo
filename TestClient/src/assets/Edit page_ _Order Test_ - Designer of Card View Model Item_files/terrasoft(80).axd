@@ -1,0 +1,1 @@
+Ext.StringList['WC.LookupEdit']=new Ext.util.MixedCollection(false,function(item){return item.id;});Ext.StringList['WC.LookupEdit'].addAll({name:"StringList",value:"System.Byte[]"},{name:"LookupEdit.MoreRecords",value:"More..."});

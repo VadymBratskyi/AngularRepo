@@ -1,0 +1,1 @@
+Ext.StringList['WC.ReportPreview']=new Ext.util.MixedCollection(false,function(item){return item.id;});Ext.StringList['WC.ReportPreview'].addAll({name:"StringList",value:"System.Byte[]"},{name:"Message.ErrorMessageText",value:"Specified report cannot be loaded."},{name:"Message.ReportNotFound",value:"Report not found!"},{name:"Message.ErrorMessageCaption",value:"Error"});
